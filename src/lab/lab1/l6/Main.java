@@ -7,20 +7,14 @@ public class Main {
         System.out.println("Введите число ");
         Scanner console = new Scanner(System.in);
         int b = console.nextInt();
-        if(b%2==0)
-        {
+        if (b % 2 == 0) {
 
-            if(b%2==0&&b>100)
-            {
+            if (b > 100) {
                 System.out.println("Выход за пределы диапазона");
-            }
-            else
-            {
+            } else {
                 System.out.println("Число четное");
             }
-        }
-        else
-        {
+        } else {
             System.out.println("Число нечетное");
         }
     }
