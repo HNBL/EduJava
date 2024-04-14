@@ -12,9 +12,6 @@ public class Comp {
         Computer Max = new Computer("Intel Celeron G6900 OEM");
         Max.computerInfo();
 
-
-
-
     }
     }
 

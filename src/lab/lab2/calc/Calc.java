@@ -8,8 +8,6 @@ class Calculate {
         System.out.println(Del(9.6,6));
         System.out.println(Multi(9.6,665456655));
     }
-
-
     static int Sum(int a, int b) {
       return a+b;
     }
