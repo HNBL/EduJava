@@ -2,57 +2,61 @@ package lab.lab2.calc;
 
 class Calculate {
 
-    public static void main (String[] args){
-       System.out.println(Sum(956,6));
-        System.out.println(Minus(9.6,6));
-        System.out.println(Del(9.6,6));
-        System.out.println(Multi(9.6,665456655));
+    public static void main(String[] args) {
+        System.out.println(sum(956, 6));
+        System.out.println(minus(9.6, 6));
+        System.out.println(del(9.6, 6));
+        System.out.println(multi(9.6, 665456655));
     }
-    static int Sum(int a, int b) {
-      return a+b;
+
+    static int sum(int a, int b) {
+        return a + b;
     }
-    static double Sum(double a, double b) {
-        return a+b;
+
+    static double sum(double a, double b) {
+        return a + b;
     }
-    static long Sum(long a, long b) {
-        return  a+b;
+
+    static long sum(long a, long b) {
+        return a + b;
     }
 
 
-
-    static int Minus(int a, int b) {
-        return a-b;
-    }
-    static double Minus(double a, double b) {
-        return a-b;
-    }
-    static long Minus(long a, long b) {
-        return a-b;
+    static int minus(int a, int b) {
+        return a - b;
     }
 
+    static double minus(double a, double b) {
+        return a - b;
+    }
+
+    static long minus(long a, long b) {
+        return a - b;
+    }
 
 
-    static int Del(int a, int b) {
-        return  a / b;
+    static double del(int a, int b) {
+        return (double) a / b;
     }
-    static double Del(double a, double b) {
-        return  a / b;
-    }
-    static long Del(long a, long b) {
+
+    static double del(double a, double b) {
         return a / b;
     }
 
+    static double del(long a, long b) {
+        return (double) a / b;
+    }
 
-    static int Multi(int a, int b)
-    {
-        return a*b;
+
+    static int multi(int a, int b) {
+        return a * b;
     }
-    static double Multi(double a, double b)
-    {
-        return a*b;
+
+    static double multi(double a, double b) {
+        return a * b;
     }
-    static long Multi(long a, long b)
-    {
-        return a*b;
+
+    static long multi(long a, long b) {
+        return a * b;
     }
 }
